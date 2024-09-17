@@ -22,4 +22,4 @@
 - к.э.н., доцент Панов М.А.
 
 ## 1. Установка
-![Установка] https://github.com/liwt0e/IT_Engeneering/blob/Tema1/pic/1.1.jpg
+![Установка] (https://github.com/liwt0e/IT_Engeneering/blob/Tema1/pic/1.1.jpg)
