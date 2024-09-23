@@ -34,7 +34,7 @@ if one >= two:
 else:
     print('Не выполняется')
 ```
-![Меню](https://github.com/KseniaSokolenko/PI/blob/theme_3/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8/1.png)
+![Задание 1](https://github.com/liwt0e/IT_Engeneering/blob/Tema3/pic/3.1.jpg)
 
 ### Вывод: 
 Код принимает два целых числа от пользователя через input() и сравнивает их с помощью оператора сравнения >=. Если первое число больше или равно второму числу, то программа выводит "Выполняется". В противном случае выводится "Не выполняется".
@@ -51,10 +51,10 @@ elif 0<one<10:
 else:
     print('Переменная больше 10')
 ```
-![Меню](https://github.com/KseniaSokolenko/PI/blob/theme_3/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8/2.png)
+![Задание 2](https://github.com/liwt0e/IT_Engeneering/blob/Tema3/pic/3.2.jpg)
 
 ### Вывод: 
-Код принимает входное значение от пользователя, преобразует его в целое число и проверяет условия для печати соответствующих сообщений. Если переменная меньше нуля, печатается сообщение "Переменная меньше нуля". Если переменная находится между 0 и 10 (включительно), печатается "Переменная больше 0 и меньше 10". Во всех остальных случаях печатается сообщение "Переменная больше 10".
+Код принимает входное значение от пользователя. Если переменная находится между 0 и 10 (включительно), печатается "Переменная больше 0 и меньше 10". Во всех остальных случаях печатается сообщение "Переменная больше 10".
 
 ### №3. Напишите программу, в которой будет проверяться есть ли переменная в указанном массиве используя логический оператор in.
 ### Самостоятельно посмотрите, как работает программа со значениями которых нет в массиве numbers.
@@ -68,9 +68,7 @@ if value in numbers:
 else:
     print('Переменной нет в данном массиве')
 ```
-![Меню](https://github.com/KseniaSokolenko/PI/blob/theme_3/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8/3.1.png)
-
-![Меню](https://github.com/KseniaSokolenko/PI/blob/theme_3/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8/3.2.png)
+![Задание 3](https://github.com/liwt0e/IT_Engeneering/blob/Tema3/pic/3.3.jpg)
 
 ### Вывод: 
 В этом фрагменте кода создаётся список чисел [1, 3, 4, 6, 8, 9] и переменная value, которая принимает входное значение от пользователя. Затем проверяется, содержится ли значение value в списке numbers. Если да, то выводится сообщение "Переменная есть в данном массиве", иначе – "Переменной нет в данном массиве".
@@ -90,11 +88,7 @@ if value in numbers:
 else:
     print(f"Переменной нет в данном массиве и она равна {value}")
 ```
-![Меню](https://github.com/KseniaSokolenko/PI/blob/theme_3/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8/4.1.png)
-
-![Меню](https://github.com/KseniaSokolenko/PI/blob/theme_3/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8/4.2.png)
-
-![Меню](https://github.com/KseniaSokolenko/PI/blob/theme_3/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8/4.3.png)
+![Задание 4](https://github.com/liwt0e/IT_Engeneering/blob/Tema3/pic/3.4.jpg)
 
 ### Вывод: 
 Этот код проверяет, содержится ли введенное пользователем число в массиве numbers. Если число находится в массиве и является четным, программа выводит сообщение "Переменная четная и есть в данном массиве.". Если число нечетное и присутствует в массиве, выводится сообщение "Переменная нечетная и есть в данном массиве". В противном случае программа сообщает, что переменная отсутствует в массиве.
@@ -116,7 +110,7 @@ for i in range(10):
     else:
         break
 ```
-![Меню](https://github.com/KseniaSokolenko/PI/blob/theme_3/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8/5.png)
+![Задание 5](https://github.com/liwt0e/IT_Engeneering/blob/Tema3/pic/3.5.jpg)
 
 ### Вывод: 
 Программа выполняет цикл от 0 до 9 включительно, в котором для каждого значения переменной i выполняются определенные условия:
@@ -143,7 +137,7 @@ for i in string:
 else:
     print(f"Буквы '{value}' нет в указанной строке.")
 ```
-![Меню](https://github.com/KseniaSokolenko/PI/blob/theme_3/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8/6.png)
+![Задание 6](https://github.com/liwt0e/IT_Engeneering/blob/Tema3/pic/3.6.jpg)
 
 ### Вывод: 
 Код проверяет наличие букв в строке. Если найдена, печатает её позицию, иначе говорит, что такой буквы нет.
@@ -164,20 +158,19 @@ for i in range(10, -1, -1):
 ```
 
 ```python
-import string
-
-alphabet = list(string.ascii_lowercase)
-
-for letter in alphabet[::-1]:
-    print(letter, end=' ')
+value = 100
+value_minus = 5
+for i in range(value, 0, -value_minus):
+    value -= value_minus
+    print(i, value)
 ```
-![Меню](https://github.com/KseniaSokolenko/PI/blob/theme_3/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8/7.png)
+![Задание 7.1](https://github.com/liwt0e/IT_Engeneering/blob/Tema3/pic/3.7.jpg)
 
-![Меню](https://github.com/KseniaSokolenko/PI/blob/theme_3/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8/7.2.png)
+![Задание 7.2](https://github.com/liwt0e/IT_Engeneering/blob/Tema3/pic/3.8.jpg)
 
 ### Вывод: 
 Первый код представляет собой цикл for, который начинается с value = 100 и проходит через значения от 10 до 0, уменьшая значение переменной value на величину текущего индекса цикла. В каждом шаге выполнения цикла выводится текущее значение индекса i и обновлённое значение переменной value.
-Второй код создает список алфавита, содержащий строчные буквы английского языка от 'a' до 'z', затем он перебирает элементы списка в обратном порядке и печатает их одну за другой, используя пробел в качестве разделителя между символами.
+Второй код также представляет цикл for, который начинается со 100, но теперь вычетает 5
 
 ### №8. Напишите программу используя цикл while, внутри которого есть какие-либо проверки, но быть осторожным, поскольку циклы while при неправильно написанных условиях могут становится бесконечными.
 
@@ -193,9 +186,7 @@ while value < 100:
         value -= 5
     print(value)
 ```
-![Меню](https://github.com/KseniaSokolenko/PI/blob/theme_3/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8/8.1.png)
-
-![Меню](https://github.com/KseniaSokolenko/PI/blob/theme_3/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8/8.2.png)
+![Задание 8](https://github.com/liwt0e/IT_Engeneering/blob/Tema3/pic/3.9.jpg)
 
 ### Вывод: 
 Код проверяет значение value и выполняет определенные операции, пока оно меньше 100. Если значение равно 0, то оно увеличивается на 10. В противном случае, если текущее значение делится на 5 больше одного раза, то значение умножается на 5. В остальных случаях значение уменьшается на 5. После каждой итерации результат выводится на экран.
@@ -213,7 +204,7 @@ for i in range(10):
             pass
 print(value)
 ```
-![Меню](https://github.com/KseniaSokolenko/PI/blob/theme_3/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8/9.png)
+![Задание 9](https://github.com/liwt0e/IT_Engeneering/blob/Tema3/pic/3.10.jpg)
 
 ### Вывод: 
 Код добавляет все числа от 1 до 9 к переменной value, кроме числа 0. Это происходит потому, что условие if i != j проверяет, равны ли значения переменных i и j. Если они не равны, то выполняется код внутри условия (value += j), иначе ничего не происходит. В результате, после выполнения цикла for i in range(10) значение value будет равно сумме чисел от 1 до 9.
@@ -232,7 +223,7 @@ if flag is True:
 else:
     print('В массиве все числа четные')
 ```
-![Меню](https://github.com/KseniaSokolenko/PI/blob/theme_3/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8/10.png)
+![Задание 10](https://github.com/liwt0e/IT_Engeneering/blob/Tema3/pic/3.11.jpg)
 
 ### Вывод: 
 Этот код проверяет, содержит ли массив even_array хотя бы одно нечётное число. Для этого он проходит по каждому элементу массива и проверяет его чётность с помощью оператора %. Если встречается хотя бы одно нечётное число, переменная flag становится равной True. В конце программы выполняется проверка значения переменной flag, и в зависимости от результата печатается соответствующее сообщение.
@@ -248,14 +239,14 @@ else:
 
 ### Ответ:
 ```python
-n = 1
-for n in range(7):
-    n *= 5
+a = 1
+for a in range(7):
+    a *= 5
     pass
-n += 1
-print(n)
+a += 1
+print(a)
 ```
-![Меню](https://github.com/KseniaSokolenko/PI/blob/theme_3/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8/s1.png)
+![Задание 11](https://github.com/liwt0e/IT_Engeneering/blob/Tema3/pic/3.12.jpg)
 
 ### Вывод: 
 Этот код выполняет несколько простых операций. Он начинается с присваивания переменной n значения 1 (n = 1). Затем выполняется цикл от 1 до 6 (range(7)), где переменная n умножается на 5 при каждом проходе цикла (n *= 5). После завершения цикла к значению n добавляется 1 (n += 1), и затем результат выводится на экран (print(n)).
@@ -264,11 +255,11 @@ print(n)
 
 ### Ответ:
 ```python
-phrase = 'Hello World'
-for i in range(len(phrase) - 1, -1, -1):
-    print(phrase[i])
+a = 'Hello World'
+for i in range(10, -1, -1):
+    print(a[i])
 ```
-![Меню](https://github.com/KseniaSokolenko/PI/blob/theme_3/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8/s2.png)
+![Задание 12](https://github.com/liwt0e/IT_Engeneering/blob/Tema3/pic/3.13.jpg)
 
 ### Вывод: 
 Код использует цикл for для печати символов строки "Hello World" в обратном порядке. Цикл проходит от последнего символа до первого. Каждый символ выводится с помощью метода index массива.
@@ -281,20 +272,16 @@ for i in range(len(phrase) - 1, -1, -1):
 
 ### Ответ:
 ```python
-num = int(input("Введите целое число от 0 до 10 включительно: "))
-if 0 <= num <= 10:
-    if num >= 0 and num <= 3:
-        print("Диапазон: от 0 до 3 включительно")
-    elif num > 3 and num <= 6:
-        print("Диапазон: от 4 до 6 включительно")
-    else:
-        print("Диапазон: от 7 до 10 включительно")
+a = int(input())if 0 > a and a <= 3:
+    print('Диапозон от 0 до 3 включително')
+elif a > 3 and a <= 6:
+    print('Диапозон от 3 до 6 включительно')
+elif a > 6 and a <= 10:
+    print('Диапозон от 6 до 10 включительно')
 else:
-    print('Число не входит в диапозон.')
+    print('Число вне диапозона')
 ```
-![Меню](https://github.com/KseniaSokolenko/PI/blob/theme_3/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8/s3.1.png)
-
-![Меню](https://github.com/KseniaSokolenko/PI/blob/theme_3/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8/s3.2.png)
+![Задание 13](https://github.com/liwt0e/IT_Engeneering/blob/Tema3/pic/3.14.jpg)
 
 ### Вывод: 
 Код принимает целое число от 0 до 10 включительно через пользовательский ввод. Затем он проверяет, находится ли введенное значение в одном из трех диапазонов: от 0 до 3 включительно, от 4 до 6 включительно или от 7 до 10 включительно. Если введенное число выходит за пределы допустимого диапазона, программа выводит сообщение об ошибке.
@@ -309,33 +296,32 @@ else:
 
 ### Ответ:
 ```python
-def manipulate_string(sentence):
-    print("Длина предложения:", len(sentence))
-    lowercase_sentence = sentence.lower()
-    print("Предложение в нижнем регистре:", lowercase_sentence)
+from re import findall
+def checkprase(prease):
+    print(len(prease))
+    low_prease = prease.lower()
+    print(low_prease)
     vowels = 'aeiou'
-    count_vowels = sum(char in vowels for char in sentence)
-    print("Количество гласных:", count_vowels)
-    modified_sentence = sentence.replace('ugly', 'beauty')
-    print("Замененное предложение:", modified_sentence)
-    if sentence.startswith('the'):
-        print("Предложение начинается с 'The'.")
+    vowels_count = sum(char in vowels for char in prease)
+    print(vowels_count)
+    print(prease.replace('ugly', 'beauty'))
+    if prease.startswith('The'):
+    print("Предложение начинается с 'The'.")
     else:
-        print("Предложение не начинается с 'The'.")
-    if sentence.endswith('end'):
-        print("Предложение заканчивается на 'end'.")
+    print("Предложение не начинается с 'The'.")
+    if prease.endswith('end'):
+    print("Предложение заканчивается на 'end'.")
     else:
-        print("Предложение не заканчивается на 'end'.")
+    print("Предложение не заканчивается на 'end'.")
 while True:
-    sentence = input("Введите предложение: ")
-    manipulate_string(sentence)
+    prease = input("Введите предложение: ")
+    checkprase(prease)
     answer = input("Хотите ввести еще одно предложение? (да/нет): ")
     if answer == 'нет':
-        break
+    break
 ```
-![Меню](https://github.com/KseniaSokolenko/PI/blob/theme_3/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8/s4.1.png)
+![Задание 14](https://github.com/liwt0e/IT_Engeneering/blob/Tema3/pic/3.15.jpg)
 
-![Меню](https://github.com/KseniaSokolenko/PI/blob/theme_3/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8/s4.2.png)
 
 ### Вывод: 
 Код выполняет несколько операций над строкой, которую пользователь вводит через ввод данных. Основные функции включают:
@@ -400,7 +386,7 @@ while ' world' not in string:
         string = memory
     counter += 1
 ```
-![Меню](https://github.com/KseniaSokolenko/PI/blob/theme_3/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8/s5.png)
+![Меню](https://github.com/liwt0e/IT_Engeneering/blob/Tema3/pic/3.16.jpg)
 
 ### Вывод: 
 Этот код добавляет строку "world" к строке "hello" при соблюдении определённых условий. Код сначала проверяет наличие строки "world" в строке hello. Затем, если условие выполняется, он добавляет "world". В конце каждого цикла переменная counter увеличивается.
