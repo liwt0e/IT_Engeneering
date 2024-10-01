@@ -9,7 +9,7 @@
 | Задание 2 | + | + |
 | Задание 3 | + | + |
 | Задание 4 | + | + |
-| Задание 5 | + | - |
+| Задание 5 | + | + |
 | Задание 6 | + |   |
 | Задание 7 | + |   |
 | Задание 8 | + |   |
@@ -32,7 +32,7 @@ if __name__ == '__main__':
     main()
 ```
 ### Результат.
-![Задание1](https://github.com/Asappich/main/blob/Tema4/pic/z1.jpg)
+![Задание1](https://github.com/liwt0e/IT_Engeneering/blob/Tema4/pic/4.1.jpg)
 ## Выводы
 1. `def main():`: Объявляем функцию main().
 2. `print(2+2)`: Выводится cумма 2 и 2. Это число.
@@ -49,8 +49,7 @@ if __name__ == '__main__':
     print(main())
 ```
 ### Результат.
-![Задание2](https://github.com/Asappich/main/blob/Tema4/pic/z2.jpg)
-![Задание21](https://github.com/Asappich/main/blob/Tema4/pic/z21.jpg)
+![Задание2](https://github.com/liwt0e/IT_Engeneering/blob/Tema4/pic/4.2.jpg)
 ## Выводы
 1. `def main():`: Объявляем функцию main().
 2. `return 2+2`: Возвращается cумма 2 и 2. Это число.
@@ -71,8 +70,7 @@ for i in range(5):
     print(answer)
 ```
 ### Результат.
-![Задание3](https://github.com/Asappich/main/blob/Tema4/pic/z3.jpg)
-![Задание31](https://github.com/Asappich/main/blob/Tema4/pic/z31.jpg)
+![Задание3](https://github.com/liwt0e/IT_Engeneering/blob/Tema4/pic/4.3.jpg)
 ## Выводы
 1. `def main(one, two):`: Объявляем функцию main().
 2. `result = one + two`: Объявляется и присваивается значение переменной result.
@@ -99,7 +97,7 @@ if __name__ == '__main__':
     print(f'\nresult={result}')
 ```
 ### Результат.
-![Задание4](https://github.com/Asappich/main/blob/Tema4/pic/z4.jpg)
+![Задание4](https://github.com/liwt0e/IT_Engeneering/blob/Tema4/pic/4.4.jpg)
 ## Выводы
 1. `def main(x, *args):`:Объявляем функцию main().
 2. `one = x`: Объявляется и присваивается значение переменной. 
@@ -130,7 +128,7 @@ if __name__ == '__main__':
     main(**{'x':[1,2,3], 'y':[3,3,0]})
 ```
 ### Результат.
-![Задание5](https://github.com/Asappich/main/blob/Tema4/pic/z5.jpg)
+![Задание5](https://github.com/liwt0e/IT_Engeneering/blob/Tema4/pic/4.5.jpg)
 ## Выводы
 1. `def main(**kwargs)::`:Объявляем функцию main().
 2. `for i in kwargs.items():`: Цикл. Проходит по каждому элементу кортежа.  
@@ -157,7 +155,7 @@ if __name__ == '__main__':
     main(x=[1,2,3], y=[3,3,0])
 ```
 ### Результат.
-![Задание6](https://github.com/Asappich/main/blob/Tema4/pic/z6.jpg)
+![Задание6](https://github.com/liwt0e/IT_Engeneering/blob/Tema4/pic/4.6.jpg)
 ## Выводы
 1. `def main(**kwargs):`:Объявляем функцию main().
 2. `for i, j in kwargs.items():`: Цикл. Проходит по каждому элементу кортежа.  
@@ -182,7 +180,7 @@ def say_hello():
     print('Hello students!')
 ```
 ### Результат.
-![Задание7](https://github.com/Asappich/main/blob/Tema4/pic/z7.jpg)
+![Задание7](https://github.com/liwt0e/IT_Engeneering/blob/Tema4/pic/4.7.jpg)
 ## Выводы
 1. `from sup import say_hello`: Импортируется функция say_hello().
 2. `if __name__ == '__main__':`: Точка входа в программу. Выполняется только при запуске самого модуля.
@@ -206,8 +204,7 @@ if __name__ == '__main__':
 
 ```
 ### Результат.
-![Задание8](https://github.com/Asappich/main/blob/Tema4/pic/z8.jpg)
-![Задание81](https://github.com/Asappich/main/blob/Tema4/pic/z81.jpg)
+![Задание8](https://github.com/liwt0e/IT_Engeneering/blob/Tema4/pic/4.8.jpg)
 ## Выводы
 1. `import math`: Импортируется функции библиотеки math.
 2. `def main():`: Объявляется функция main().
@@ -241,7 +238,7 @@ if __name__ == '__main__':
     main()
 ```
 ### Результат.
-![Задание9](https://github.com/Asappich/main/blob/Tema4/pic/z9.jpg)
+![Задание9](https://github.com/liwt0e/IT_Engeneering/blob/Tema4/pic/4.9.jpg)
 ## Выводы
 1. `from datetime import datetime as dt`: Импортируется функция библиотеки datetime. dt равно datetime.
 2. `from datetime import timedelta as td`: Импортируется функция библиотеки datetime. td равно timedelta.
@@ -286,7 +283,7 @@ elif figure == '2':
 print(f'Площадь: {result}')
 ```
 ### Результат.
-![Задание10](https://github.com/Asappich/main/blob/Tema4/pic/z10.jpg)
+![Задание10](https://github.com/liwt0e/IT_Engeneering/blob/Tema4/pic/4.10.jpg)
 ## Выводы
 1. `global result`:  Объявляется глобальная переменная.
 2. `def rectangle():`: Объявляется функция rectangle().
@@ -332,7 +329,7 @@ if __name__ == '__main__':
     print(f"Время выполнения программы - {time_costs}")
 ```
 ### Результат.
-![Задание1с](https://github.com/Asappich/main/blob/Tema4/pic/s1.jpg)
+![Задание1с](https://github.com/liwt0e/IT_Engeneering/blob/Tema4/pic/4.11.jpg)
 ## Выводы
 1. `from datetime import datetime`: Импортируется функция datetime() библиотеки datetime.
 2. `from math import sqrt`: Импортируется функция sqrt() библиотеки math.
@@ -373,7 +370,7 @@ if __name__ == '__main__':
     main()
 ```
 ### Результат.
-![Задание2с](https://github.com/Asappich/main/blob/Tema4/pic/s2.jpg)
+![Задание2с](https://github.com/liwt0e/IT_Engeneering/blob/Tema4/pic/4.12.jpg)
 ## Выводы
 1. `import random`: Импортируется функция random стандартной библиотеки.
 2. `def main():`: Объявляется функция main().
@@ -403,7 +400,7 @@ if __name__ == '__main__':
     main()
 ```
 ### Результат.
-![Задание3с](https://github.com/Asappich/main/blob/Tema4/pic/s3.jpg)
+![Задание3с](https://github.com/liwt0e/IT_Engeneering/blob/Tema4/pic/4.13.jpg)
 ## Выводы
 1. `import datetime`: Импортируется функция datetime.
 2. `import time`: Импортируется функция time.
@@ -426,11 +423,36 @@ if __name__ == '__main__':
     print(f'result = {result}')
 ```
 ### Результат.
-![Задание4с](https://github.com/Asappich/main/blob/Tema4/pic/s4.jpg)
+![Задание4с](https://github.com/liwt0e/IT_Engeneering/blob/Tema4/pic/4.14.jpg)
 ## Выводы
 1. `def main():`: Объявляется функция main().
 2. `return sum(args)`: Вызвращает сумму элементов кортежа.
 3. `if __name__ == '__main__':`: Точка входа в программу. Выполняется только при запуске самого модуля.
 4. `result = main(12, 4325, 45, 76, 8, 9, 0, 5, 21, 5)`: В переменную result записывается функция main c параментрами.
 5. `print(f'result = {result}')`: Выводит результат.
+
+### №5. 
+Создайте два Python файла, в одном будет выполняться вычисление площади треугольника при помощи формулы Герона (необходимо реализовать через функцию), а во втором будет происходить взаимодействие с пользователем (получение всей необходимой информации и вывод результатов). Напишите эту программу и выведите в консоль полученную площадь.
+### Ответ:
+```python
+import math
+
+def heron(a, b, c):
+    s = (a + b + c) / 2
+    area = math.sqrt(s * (s - a) * (s - b) * (s - c))
+    return area
+```
+![Меню](https://github.com/liwt0e/IT_Engeneering/blob/Tema4/pic/4.15.jpg)
+
+```python
+from s5_TRIANGLE import heron
+
+a = float(input("Введите первую сторону треугольника: "))
+b = float(input("Введите вторую сторону треугольника: "))
+c = float(input("Введите третью сторону треугольника: "))
+
+area = heron(a, b, c)
+if __name__ == '__main__':
+    print(f"Площадь треугольника равна {area}")
+```
 
